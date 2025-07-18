@@ -37,7 +37,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://blog.stackademic.com/the-mongodb-and-next-js-stack-for-beginners-b4394872f5bb"
+          href="https://ellertsmarik.medium.com/json-api-using-next-js-13-and-mongodb-f45e8e61b031"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -22,7 +22,7 @@ export default function Button({
       disabled={disabled}
       className={className}
       style={{
-        padding: "1em 1.8em",
+        padding: "0.5em 1.2em",
         borderRadius: 8,
         background: "var(--color-primary)",
         color: "var(--color-text)",

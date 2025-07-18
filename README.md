@@ -1,18 +1,36 @@
 
 ### School project
-This project's sole purpose is to connect to a database and display the contents. In the first round it's just a bare-minimum-type-of-a-deal.
-I followed my [sensei's tutorial](https://blog.stackademic.com/the-mongodb-and-next-js-stack-for-beginners-b4394872f5bb) (Hæ Smári!) 
+This is the follow up project's from M5G2 repo project. No emphasis was put on design, only on function. 
 
-It's very basic, only a button on landing page. Click button and get four randomized words from the database. 
+This project is a simple full-stack web application built with Next.js and MongoDB Atlas. It demonstrates how to connect a Next.js app to a remote MongoDB database and perform all basic CRUD (Create, Read, Update, Delete) operations through a JSON API.
+Main features include:
+- Fetching and displaying words from the database
+- Adding new words (POST)
+- Editing existing words (PUT)
+- Deleting words (DELETE)
+- Randomizing the displayed words with a shuffle feature.
 
-<img src="./public/screenshot.png" alt="Screenshot of website" width="400"/>
+I'm using both server and client components, showing how to combine them for an interactive, data-driven page. The API layer is kept simple and contained in a single file for clarity, but can be expanded as needed.
+
+Styling is minimal and functional, focusing on demonstrating core concepts rather than design.
+
+<img src="./public/Screenshot2.png" alt="Screenshot of website" width="400"/>
+
+I followed guidelines from my [sensei's second tutorial](https://ellertsmarik.medium.com/json-api-using-next-js-13-and-mongodb-f45e8e61b031) (Hæ Smári!) 
+
+This project is intended as a learning exercise in:
+- Using HTTP methods and JSON APIs
+- Understanding the difference between client-side and server-side code in Next.js
+- Integrating MongoDB with a modern web framework
+- Managing state and interactivity with React hooks
 
 
+---
 
+Backstory for this project:
+Originally I deviated a little bit from the first tutorial and added to it some things that were needed for what I wanted to display. I've f.ex. added hooks to manage component state and I'm using effect hooks for fetching data from my API. Also incorporated f.ex. arrays, props, event handling, async functions and more. 
 
-I deviated a little bit from the tutorial and added to it some things that were needed for what I wanted to display. I've f.ex. added hooks to manage component state and I'm using effect hooks for fetching data from my API. Also incorporated f.ex. arrays, props, event handling, async functions and more. 
-
-I´ve included the client and server side logs that were a part of the tutorial. 
+I´ve included the client and server side logs that were a part of that tutorial. 
 
 On the landing page I've included a link to Smári's tutorial and a link wher you can learn MongoDB
 
